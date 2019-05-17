@@ -10,7 +10,7 @@ Reminder: commands are called with the prefix `d.`
 There are various commands for game rolls. They are:\
     roll, bin, coin
 
-#### roll  
+**roll**  
 Rolls dice in standard dice notation. If you've ever played Dungeons & Dragons or other tabletop RPGs, you're probably very familiar with standard dice notation
 
 Will return a random value based on the specified dice notation. The format is: `[n]d<s>[modifier]`\

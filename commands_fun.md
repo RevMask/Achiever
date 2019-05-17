@@ -52,9 +52,9 @@ Uses Supernatural APIs to access magical sources.
 **roulette [bet] [wager=100]**  
 *aliases:* roul, rou  
 **Roulette**  
-Based on American-style roulette. If no wager is given, the default 100 is used. The bets and their payoffs are:  
+Based on American-style roulette. If no wager is given, the default 100 is used. The bets and their payouts are:  
 
-|Name           |Description            |Payoff |
+|Name           |Description            |Payout |
 |---------------|-----------------------|------:|
 |red, r, rouge  |Any red number         |    1:1|
 |black, k, noir |Any black number       |    1:1|
@@ -76,4 +76,35 @@ The columns are:
 *column 2:* 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35  
 *column 3:* 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36  
 
+This does seem confusing, so here is a reminder:  
+![American Roulette](https://github.com/RevMask/Achiever/blob/master/images/american-roulette-1200.png "American Roulette wheel and board")
+
+**rps [rec|record]**  
+**Rock Paper Scissors**  
+Play against Achiever! It will ask you for your choice. It really is random, dudes. Trust me. You can see your win/loss/tie record with the optional argument.
+
+Rock beats/destroys scissors. Paper beats/covers rock. Scissors beat/cut paper.
+
+**rpsls [rec|record]**  
+*aliases:* spock, r5  
+Play Rock, Paper, Scissors. Lizard, Spock, the game created by Sam Kass and Karen Bryla. Achiever will ask you for your choice. Again, it's random. Honestly. You can see your win/loss/tie record with the optional argument.
+
+Scissors cuts paper, paper covers rock, rock crushes lizard, lizard poisons Spock, Spock smashes scissors, scissors decapitate lizard, lizard eats paper, paper disproves Spock, Spock vaporizes rock, and as it always has, rock crushes scissors. *(Thanks, Dr. Cooper!)*
+
+
+**slots [amount]**  
+**Dude Slot Machine**  
+I'm proud of this one. You specify your wager amount, and the bot will randomly spin the machine. Each time someone loses, it's added to the jackpot. Enter `d.slots` with no argument to see the current jackpot amount. The payouts are:  
+
+|1         |2         |3         | Payout|
+|:--------:|:--------:|:--------:|------:|
+|Dude      |Dude      |Dude      |jackpot|
+|bar       |bar       |bar       |   x250|
+|bell      |bell      |bell/bar  |    x20|
+|plum      |plum      |plum/bar  |    x15|
+|orange    |orange    |orange/bar|    x10|
+|lemon     |lemon     |lemon/bar |     x8|
+|cherry    |cherry    |cherry    |     x7|
+|cherry    |cherry    |*(any)*   |     x5|
+|cherry    |*(any)*   |*(any)*   |     x2|
 

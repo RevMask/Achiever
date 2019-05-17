@@ -6,28 +6,74 @@ Reminder: commands are called with the prefix `d.`
 ## Commands in the Fun category:
   8ball, bin, coin, money, ouinon, quote, roll, roulette, rps, rpsls, sino, slots, yesno
 
-### 8ball [question]
-**Magic 8-Ball**
-
-Will give you an answer to your important question. You can either think of a question while typing, or include it after the command. The magical oracle can read your mind if you just type.
-
-Uses Supernatural APIs to access magical sources.
-
 ### Dice and Random Rolls
 There are various commands for game rolls. They are:\
     roll, bin, coin
 
-**roll**\
+#### roll  
 Rolls dice in standard dice notation. If you've ever played Dungeons & Dragons or other tabletop RPGs, you're probably very familiar with standard dice notation
 
 Will return a random value based on the specified dice notation. The format is: `[n]d<s>[modifier]`\
 where _*n*_ is the number of dice (default 1), mandatory letter _*d*_ (no quotes), _*s*_ is the the number of sides, and an optional modifier, +, -, \*, /, and an integer
 
 Sides can be any integer, or a special:
-* `c`     coin toss (`d.roll dc` is the same as `d.coin`)
-* `b`     binary (0, 1) (`d.roll db` is the same as `d.bin`)
-* `%`     percent roll (same as d100 plus '%')
-* `y,n`   yes/no result (`d.roll dy|dn` is the same as `d.yesno`)
+* `c` -> coin toss (`d.roll dc` is the same as `d.coin`)
+* `b` -> binary (0, 1) (`d.roll db` is the same as `d.bin`)
+* `%` -> percent roll (same as d100 plus '%')
+* `y,n` -> yes/no result (`d.roll dy|dn` is the same as `d.yesno`)
 
 Some examples are: d4 (4-sided die), 3d6 (3 x 6-sided dice), d% (random percentage), d100 (like % but without percent sign), 1d20+2 (20-sided die, adding 2).
+
+**bin**  
+*aliases:* bin, binary, 01, 10  
+Performs a binary roll. Returns an answer of 0 or 1. This is identical to `d.roll db`.
+
+**coin**  
+*aliases:* coin, toss, flip, headstails, heads, tails  
+Performs a coin toss. Returns an answer of "heads" or "tails." This is identical to `d.roll dc`.
+
+**yesno [question]**  
+Answers yes or no to your question. The question is optional.  
+This is identical to `d.roll dy` and `d.roll dn`.
+
+**ouinon [question]**  
+Recevez une réponse oui/non. The French version of `yesno`, answering in French. Can also take an optional question.
+
+**sino [pregunta]**  
+Recibe una respuesta de sí/no. The Spanish version of `yesno`, answering in Spanish. Can also take an optional question.
+
+### Games
+**8ball [question]**  
+**Magic 8-Ball**  
+Will give you an answer to your important question. You can either think of a question while typing, or include it after the command. The magical oracle can read your mind if you just type.
+
+Uses Supernatural APIs to access magical sources.
+
+**roulette [bet] [wager=100]**  
+*aliases:* roul, rou  
+**Roulette**  
+Based on American-style roulette. If no wager is given, the default 100 is used. The bets and their payoffs are:  
+
+|Name           |Description            |Payoff |
+|---------------|-----------------------|------:|
+|red, r, rouge  |Any red number         |    1:1|
+|black, k, noir |Any black number       |    1:1|
+|low, low       |1-18                   |    1:1|
+|high, hi       |19-36                  |    1:1|
+|dozen1, dz1    |1-12                   |    2:1|
+|dozen2, dz2    |13-24                  |    2:1|
+|dozen3, dz3    |25-36                  |    2:1|
+|column1, col1  |Any in column 1        |    2:1|
+|column2, col2  |Any in column 2        |    2:1|
+|column3, col3  |Any in column 3        |    2:1|
+|basket         |0, 00, 2               |    6:1|
+|topline        |0, 00, 1, 2, 3         |    6:1|
+|*number*       |Straight (exact number)|   35:1|
+|0, 00, zero    |Zero                   |   36:1|  
+
+The columns are:  
+*column 1:* 1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34  
+*column 2:* 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35  
+*column 3:* 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36  
+
 

@@ -131,4 +131,4 @@ You can also type d.help category for more info on a category.
 ```
 
 ### Admin & Mod
-The admin and mod commands are hidden and will not be displayed here. Also, the bot will not show them, either.
+The admin and mod commands are hidden and will not be displayed here. The bot will not show them, either.

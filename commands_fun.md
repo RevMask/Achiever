@@ -42,12 +42,22 @@ Recevez une réponse oui/non. The French version of `yesno`, answering in French
 **sino [pregunta]**  
 Recibe una respuesta de sí/no. The Spanish version of `yesno`, answering in Spanish. Can also take an optional question.
 
-### Games
+### Games, Etc.
 **8ball [question]**  
 **Magic 8-Ball**  
 Will give you an answer to your important question. You can either think of a question while typing, or include it after the command. The magical oracle can read your mind if you just type.
 
 Uses Supernatural APIs to access magical sources.
+
+**quote [source]**  
+Fun quotes from various sources. Can be used with or without a parameter. Defaults to quotes from "The Big Lebowski"  
+
+|parameter                 |source             |
+|:-------------------------|:------------------|
+|*\<none>*                 |The Big Lebowski   |
+|sw, starwars              |Star Wars (various)|
+|rm, rickmorty, rick, morty|Rick & Morty       |
+|mv, movie, movies         |Movies, various    |
 
 **roulette [bet] [wager=100]**  
 *aliases:* roul, rou  

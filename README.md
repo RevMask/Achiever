@@ -1,6 +1,8 @@
 # Achiever
 Various files for Achiever bot, running on the Dudes Abiding discord server.
 
+If you want to test the commands, it's best to do it in the #bunny channel. Games should probably be done in #vegas. Music should be done in #voice-text. Thanks.
+
 The bot prefix is "d." (without quotes). Example: `d.help` gives you the main help text.
 ```
 Abiding bot for the dudes

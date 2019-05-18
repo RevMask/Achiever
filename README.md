@@ -6,23 +6,39 @@ The bot prefix is "d." (without quotes). Example: `d.help` gives you the main he
 Abiding bot for the dudes
 
 Fun:
-  8ball    Magic 8-Ball
-  bin      Perform a binary roll
-  coin     Perform a coin toss
-  ouinon   Recevez une réponse oui/non à votre question importante
-  quote    Fun quotes from various sources
-  roll     Rolls dice in standard dice notation
-  rps      Rock, Paper, Scissors
-  rpsls    Rock, Paper, Scissors. Lizard, Spock
-  sino     Recibe una respuesta de sí/no a tu pregunta importante
-  yesno    Receive a yes/no answer to your pressing question
+  8ball       Magic 8-Ball
+  bin         Perform a binary roll
+  coin        Perform a coin toss
+  money       Returns game money amount
+  ouinon      Recevez une réponse oui/non à votre question importante
+  quote       Fun quotes from various sources
+  roll        Rolls dice in standard dice notation
+  roulette    Roulette
+  rps         Rock, Paper, Scissors
+  rpsls       Rock, Paper, Scissors. Lizard, Spock
+  sino        Recibe una respuesta de sí/no a tu pregunta importante
+  slots       Dude Slot Machine
+  yesno       Receive a yes/no answer to your pressing question
 General:
-  currtime Displays current time in UTC or specified timzezone
+  currtime    Displays current time in UTC or specified timezone
+  dudeme      Request the Dude role
+  info        Information for various things.
+  joined      Tells you when you joined and how long you've been a member.
+Music:
+  connect     Connect to voice.
+  now_playing Display information about the currently playing song.
+  pause       Pause the currently playing song.
+  play        Request a song and add it to the queue.
+  queue       Retrieve a basic queue of upcoming songs.
+  resume      Resume the currently paused song.
+  skip        Skip the song.
+  stop        Stop the currently playing song & destroy the player.
+  volume      Change the player volume.
 Profile:
-  prof     Shows your profile or another user's profile
-  profset  Sets your profile information
-No Category:
-  help     Shows this message.
+  prof        Shows your profile or another user's profile
+  profset     Sets your profile information
+​No Category:
+  help        Shows this message
 
 Type d.help command for more info on a command.
 You can also type d.help category for more info on a category.
@@ -37,7 +53,10 @@ From there, you can get specific help for a category or command. Be sure to obse
 General commands for bot
 
 Commands:
-  currtime Displays current time in UTC or specified timzezone
+  currtime Displays current time in UTC or specified timezone
+  dudeme   Request the Dude role
+  info     Information for various things.
+  joined   Tells you when you joined and how long you've been a member.
 
 Type d.help command for more info on a command.
 You can also type d.help category for more info on a category.
@@ -51,20 +70,25 @@ Commands for fun & games
 Various commands for simple games and fun shit.
 Just don't abuse these and you'll be OK!
 
+Some of these have aliases or shorter names. Get help on the command to see.
+
 Commands:
   8ball    Magic 8-Ball
   bin      Perform a binary roll
   coin     Perform a coin toss
+  money    Returns game money amount
   ouinon   Recevez une réponse oui/non à votre question importante
   quote    Fun quotes from various sources
   roll     Rolls dice in standard dice notation
+  roulette Roulette
   rps      Rock, Paper, Scissors
   rpsls    Rock, Paper, Scissors. Lizard, Spock
   sino     Recibe una respuesta de sí/no a tu pregunta importante
+  slots    Dude Slot Machine
   yesno    Receive a yes/no answer to your pressing question
 
 Type d.help command for more info on a command.
-You can also type d.help category for more info on a category.
+You can also type d.help category for more info on a category.```
 ```
 
 ### Profile
@@ -73,8 +97,28 @@ You can also type d.help category for more info on a category.
 Profile commands
 
 Commands:
-  prof     Shows your profile or another user's profile
-  profset  Sets your profile information
+  prof    Shows your profile or another user's profile
+  profset Sets your profile information
+
+Type d.help command for more info on a command.
+You can also type d.help category for more info on a category.
+```
+
+### Music
+`d.help Music`:
+```
+Music related commands.
+
+Commands:
+  connect     Connect to voice.
+  now_playing Display information about the currently playing song.
+  pause       Pause the currently playing song.
+  play        Request a song and add it to the queue.
+  queue       Retrieve a basic queue of upcoming songs.
+  resume      Resume the currently paused song.
+  skip        Skip the song.
+  stop        Stop the currently playing song & destroy the player.
+  volume      Change the player volume.
 
 Type d.help command for more info on a command.
 You can also type d.help category for more info on a category.

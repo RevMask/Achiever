@@ -48,6 +48,7 @@ You can also type d.help category for more info on a category.
 From there, you can get specific help for a category or command. Be sure to observe case, as it is case sensitive.
 
 ### General
+For the General commands, [click here](../master/commands_general.md).  
 `d.help General`:
 ```
 General commands for bot
@@ -63,6 +64,7 @@ You can also type d.help category for more info on a category.
 ```
 
 ### Fun
+For the Fun commands, [click here](../master/commands_fun.md).  
 `d.help Fun`:
 ```
 Commands for fun & games
@@ -92,6 +94,7 @@ You can also type d.help category for more info on a category.```
 ```
 
 ### Profile
+For the Profile commands, [click here](../master/commands_profile.md).  
 `d.help Profile`:
 ```
 Profile commands
@@ -105,6 +108,7 @@ You can also type d.help category for more info on a category.
 ```
 
 ### Music
+For the Music commands, [click here](../master/commands_music.md).  
 `d.help Music`:
 ```
 Music related commands.

@@ -58,6 +58,7 @@ Fun quotes from various sources. Can be used with or without a parameter. Defaul
 |sw, starwars              |Star Wars (various)|
 |rm, rickmorty, rick, morty|Rick & Morty       |
 |mv, movie, movies         |Movies, various    |
+|marvel, mcu               |Marvel movies      |
 
 **roulette [bet] [wager=100]**  
 *aliases:* roul, rou  

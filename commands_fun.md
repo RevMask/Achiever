@@ -27,6 +27,8 @@ Sides can be any integer, or a special:
 
 Some examples are: d4 (4-sided die), 3d6 (3 x 6-sided dice), d% (random percentage), d100 (like % but without percent sign), 1d20+2 (20-sided die, adding 2).
 
+There is a limit of 1024 sides and 1024 dice. We found out the hard way it can kill the bot!
+
 **save <value> <roll>**  
 Make a saving throw. These are in tabletop RPGs. You are trying to roll the *value* or higher. The *roll* must be in standard dice notation as shown above.
 

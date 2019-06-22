@@ -12,6 +12,7 @@ Displays current time. If no timezone is given, time will be in UTC. Timezones a
 
 **dudeme [remove]**  
 Request or remove the Dude role. Will assign you to the Dude role. You can remove the Dude role by including the optional `remove` keyword.
+This command may be deprecated. Recently the `#autorole` channel was created with a message for the Dude and Ordained roles. 
 
 **info [subject]**  
 *aliases:* kb, what, whatis, what_is  

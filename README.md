@@ -23,7 +23,7 @@ Fun:
   yesno       Receive a yes/no answer to your pressing question
 General:
   currtime    Displays current time in UTC or specified timezone
-  dudeme      Request the Dude role
+  dudeme      Request the Dude role (removed)
   info        Information for various things.
   joined      Tells you when you joined and how long you've been a member.
 Music:

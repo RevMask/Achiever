@@ -9,7 +9,7 @@ Generally speaking, you can start playing music by doing the following:
   1. Join the voice channel called `music`
   1. In `#voice-text` type `d.connect music`
   1. Enter something like `d.play louis armstrong wonderful world`
-  1. Enjoy the soothing sounds
+  1. Enjoy the soothing sounds. Or cacophonous noise, whatever floats your boat.
 
 ## Commands in the Music category:
   connect, now_playing, play, pause, queue, resume, skip, stop, volume

@@ -5,6 +5,12 @@ Reminder: commands are called with the prefix `d.`
 
 I'll be honest, dudes... The libraries I use get updated a lot. Often one library is updated but another is not. When this happens, the bot shits itself and doesn't play music right. When this happes, just tag me (Mask) and say the bot harfed. The programmers generally fix this in a few days. I have no control over this. *sigh*
 
+Generally speaking, you can start playing music by doing the following:  
+  1. Join the voice channel called `music`
+  1. In `#voice-text` type `d.connect music`
+  1. Enter something like `d.play louis armstrong wonderful world`
+  1. Enjoy the soothing sounds
+
 ## Commands in the Music category:
   connect, now_playing, play, pause, queue, resume, skip, stop, volume
 

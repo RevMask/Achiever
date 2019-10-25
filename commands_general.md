@@ -19,6 +19,9 @@ This command has been deprecated and removed. Recently the `#autorole` channel w
 *aliases:* kb, what, whatis, what_is  
 Information for various things. If no subject is given, will give a list of available subjects.
 
+**ism**  
+Returns a random title, institution, and ministry from ISM.co, with link to the website.
+
 **joined [user]**  
 *aliases:* userjoin, uj  
 Tells you when you joined and how long you've been a member. Admins and mods can check another user's join date.

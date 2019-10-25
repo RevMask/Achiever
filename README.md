@@ -25,6 +25,7 @@ General:
   currtime    Displays current time in UTC or specified timezone
   dudeme      Request the Dude role (removed)
   info        Information for various things.
+  ism         Random title and institution from ISM.co
   joined      Tells you when you joined and how long you've been a member.
 Music:
   connect     Connect to voice.
